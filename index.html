@@ -4,36 +4,43 @@
     <title>DEWMRAX Inc.</title>
   </head>
   <style>
-      #header{
-          width:100%;
+      .header{
+          width:80%;
           text-align:center;
       }
-      #footer{
-          width:100%;
-          text-align:center;
+      .header.img{
+          width:80%;
       }
-      #subheader{
+      .footer{
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          padding: 1rem;
+          text-align: center;
+      }
+      .subheader{
           font-family:Arial;
           margin-top:4px;
       }
   </style>
   <body>
-    <div id="header">
-        <img src="http://dewmrax.io/logo.png" width="600px"/>
-        <p id="subheader">
+    <div class="header">
+        <img src="http://dewmrax.io/logo.png"/>
+        <p class="subheader">
         DEWMRAX Inc. is a cryptocurrency investment company that currently focuses on autonomous high frequency trading. We have prepared this information to help you start safely investing in cryptocurrency entirely on your own.
         </p>
     </div>
 
-    <div id="navigation">
+    <div class="navigation">
       <a href="links.html">Links</a>
       <a href="links.html">Links</a>
       <a href="links.html">Links</a>
       <a href="links.html">Links</a>
     </div>
 
-    <div id="footer">
-        <p id="subheader">
+    <div class="footer">
+        <p class="subheader">
         This is not investment advice. The materials here are for educational purposes only. Always do your own research.
         </p>
     </div>
